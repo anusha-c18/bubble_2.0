@@ -12,10 +12,17 @@ class BubbleTheme{
       color: bubbleGreen,
     ),
     backgroundColor: bubbleGreenDark,
+
     textButtonTheme: TextButtonThemeData(
       style: TextButton.styleFrom(
         primary: bubbleRed,
       ),
     ),
+
+    buttonTheme: ButtonThemeData(
+      height: 45,
+      minWidth: 150,
+    ),
+
   );
 }

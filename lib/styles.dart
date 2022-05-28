@@ -24,5 +24,13 @@ class BubbleTheme{
       minWidth: 150,
     ),
 
+    navigationBarTheme: NavigationBarThemeData(
+      height: 60,
+      backgroundColor: Colors.cyan.shade200,
+      indicatorColor: Colors.redAccent.shade200,
+      labelTextStyle: MaterialStateProperty.all(
+        TextStyle(fontSize: 14,fontWeight: FontWeight.w500)
+      )
+    )
   );
 }

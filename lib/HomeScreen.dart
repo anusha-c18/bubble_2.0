@@ -30,6 +30,7 @@ class HomeScreen extends StatelessWidget {
                   splashColor: Colors.redAccent,
                   onPressed: ()=>Navigator.push(context, MaterialPageRoute(builder: (context)=> NGOPortal()))),
 
+              //TODO: choose button type to proceed with
               //Different button type
               // ElevatedButton(
               //     style: ElevatedButton.styleFrom(minimumSize: Size(100.0, 40.0)),
